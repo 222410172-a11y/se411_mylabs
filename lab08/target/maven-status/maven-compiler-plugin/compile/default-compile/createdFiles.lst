@@ -1,0 +1,8 @@
+edu/psu/se411/lab08/observer/Logger.class
+edu/psu/se411/lab08/subject/AbstractSubject.class
+edu/psu/se411/lab08/observer/Dashboard.class
+edu/psu/se411/lab08/subject/Subject.class
+edu/psu/se411/lab08/observer/Observer.class
+edu/psu/se411/lab08/subject/SensorType.class
+edu/psu/se411/lab08/App.class
+edu/psu/se411/lab08/subject/Sensor.class

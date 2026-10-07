@@ -1,0 +1,46 @@
+package edu.psu.se411.lab08.subject;
+
+import java.util.HashSet;
+
+public class Sensor extends AbstractSubject implements Cloneable {
+
+    private String name;
+    private SensorType type;
+    private double reading;
+
+    public Sensor(String name, SensorType type) {
+        this.name = name;
+        this.type = type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public SensorType getType() {
+        return type;
+    }
+
+    public double getReading() {
+        return reading;
+    }
+
+    public void setReading(double reading) {
+        this.reading = reading;
+        notifyObservers();
+    }
+
+    @Override
+    public Sensor clone() {
+        try {
+            Sensor clonedSensor = (Sensor) super.clone();
+
+            clonedSensor.setObservers(new HashSet<>());
+
+            return clonedSensor;
+
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+    }
+}

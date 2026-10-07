@@ -1,0 +1,8 @@
+/Users/norabassem9/eclipse-workspace/lab8/src/main/java/edu/psu/se411/lab08/App.java
+/Users/norabassem9/eclipse-workspace/lab8/src/main/java/edu/psu/se411/lab08/observer/Dashboard.java
+/Users/norabassem9/eclipse-workspace/lab8/src/main/java/edu/psu/se411/lab08/observer/Logger.java
+/Users/norabassem9/eclipse-workspace/lab8/src/main/java/edu/psu/se411/lab08/observer/Observer.java
+/Users/norabassem9/eclipse-workspace/lab8/src/main/java/edu/psu/se411/lab08/subject/AbstractSubject.java
+/Users/norabassem9/eclipse-workspace/lab8/src/main/java/edu/psu/se411/lab08/subject/Sensor.java
+/Users/norabassem9/eclipse-workspace/lab8/src/main/java/edu/psu/se411/lab08/subject/SensorType.java
+/Users/norabassem9/eclipse-workspace/lab8/src/main/java/edu/psu/se411/lab08/subject/Subject.java
